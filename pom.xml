@@ -14,4 +14,16 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>my-release-repo</id>
+            <name>Release Repository</name>
+            <url>https://mycompany.com/maven/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>my-snapshot-repo</id>
+            <name>Snapshot Repository</name>
+            <url>https://mycompany.com/maven/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
